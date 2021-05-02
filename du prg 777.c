@@ -5,23 +5,11 @@
 
 int main()
 {
-
-    for (int j = 1; j <= 5; j++)
+    
+    for (int i = 20; i <= 40; i = i + 2)
     {
-        if (j == 1)
-        {
-           
-        }
-        if (j == 11)
-        {
-           
-        }
-        printf("%3i:", j);
-        for (int i = 1; i <= 10; i++)
-        {
-            printf("\t%3i", i * j);
-        }
-        printf("\n");
-    }
+        printf("%i ", i);
+    } 
+
     return 0;
 }

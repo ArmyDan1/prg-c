@@ -5,11 +5,10 @@
 
 int main()
 {
-    
-    for (int i = 20; i <= 40; i = i + 2)
+    for (int cislo = 1; cislo <= 1024; cislo = cislo * 2)
     {
-        printf("%i ", i);
-    } 
+        printf("%i ", cislo);
+    }
 
     return 0;
 }

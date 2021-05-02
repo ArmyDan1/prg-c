@@ -2,16 +2,13 @@
 #include <stdlib.h>
 #include <math.h>
 
-void ahoj(int n)
-{
-    for (int i = 0; i<n; i++)
-    {
-        printf("ahoj kámo\n");
-    }
-}
+int main() {
 
-int main()
-{
-    ahoj(9);
+    for(int y=0; y<9; y++ ){
+        for(int x=0; x <9; x++){
+            printf("%i", (x+y)%2);
+        }
+        printf("\n");
+    }
     return 0;
 }

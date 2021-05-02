@@ -3,12 +3,12 @@
 #include <time.h>  
   
 
-int main()
-{
-    for (int cislo = 1; cislo <= 1024; cislo = cislo * 2)
-    {
-        printf("%i ", cislo);
-    }
+int main() {
 
-    return 0;
+printf("                                     čísla pod sebou\n");
+    int i;
+    for(i=1; i<=99; i++){
+       printf("%i\n", i);
+}
+ return 0;
 }
